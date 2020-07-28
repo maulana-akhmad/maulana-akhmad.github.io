@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>      
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#d4e157 "/>
+  <meta charset="UTF-8"/>
+  <title>PSG Fans Club</title>
+  <meta name="description" content="PSG Fans Club"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="apple-touch-icon" href="/images/custom-192.png">
+  
+  <link rel="stylesheet" href="css/custom.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+</head>
+<body>
+  <!-- Navigasi -->
+  <nav class="lime lighten-1" role="navigation">
+    <div class="nav-wrapper container">
+      <a href="index.html" class="brand-logo" id="logo-container"><img src="/images/dicoding.png" alt="dicoding"></a>
+      <a href="index.html#squad" class="sidenav-trigger" data-target="nav-mobile">🡸</a>
+      
+      <ul class="topnav right hide-on-med-and-down"></ul>
+      <ul class="sidenav" id="nav-mobile"></ul>
+    </div>
+  </nav>
+  <!-- Akhir Navigasi -->
+<div class="container">
+  <div class="row">
+    <div class="cols12">
+      <div class="card">
+        <div class="card-content">
+          <h5 style="text-align: center;"><b>SQUAD DETAIL</b></h5>                 
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <div id="body-content">
+            <div id="loader"></div>
+          </div>           
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h5 style="text-align: center;"><b>MATCHES RECORD <br><br></b></h5>           
+            <div class="row">
+              <div id="loader"></div>
+            <div id="match-content">
+            </div>
+            </div>          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Tombol Save --> 
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large green" id="save">
+    <i class="large material-icons">save</i>
+    </a>
+  </div> 
+
+    <footer>
+    <div class="grey darken-4 footer-copyright">
+      <div class="container">
+      © 2020 A. Rifki Maulana
+      </div>
+    </div>
+  </footer>
+  <script src="js/api.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/squad.js"></script>
+  <script src="js/sw.js"></script>
+  <script src="js/idb.js"></script>
+  <script src="js/db.js"></script>
+  <script src="js/getdb.js"></script>
+</body>
+</html>

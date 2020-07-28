@@ -1,0 +1,42 @@
+    {
+        "name": "PSG Fans Club",
+        "short_name": "PSG FC",
+        "description": "PSG Fans Club",
+        "start_url": "/index.html",
+        "display": "standalone",
+        "background_color": "#d4e157",
+        "theme_color": "#d4e157",
+        "gcm_sender_id" : "657469074820",
+        "icons": [
+            {
+                "src": "/images/icon-48.png",
+                "sizes": "48x48",
+                "type": "image/png"
+            },
+            {
+                "src": "/images/icon-72.png",
+                "sizes": "72x72",
+                "type": "image/png"
+            },
+            {
+                "src": "/images/icon-96.png",
+                "sizes": "96x96",
+                "type": "image/png"
+            },
+            {
+                "src": "/images/icon-144.png",
+                "sizes": "144x144",
+                "type": "image/png"
+            },
+            {
+                "src": "/images/icon-192.png",
+                "sizes": "192x192",
+                "type": "image/png"
+            },
+            {
+                "src": "/images/icon-512.png",
+                "sizes": "512x512",
+                "type": "image/png"
+            }
+        ]
+    }
